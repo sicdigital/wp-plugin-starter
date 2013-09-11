@@ -1,6 +1,6 @@
 <?php
 /* 
-Plugin Name: My New Plufin
+Plugin Name: My New Plugin
 Plugin URI: http://www.sicdigital.com
 Description: It's important for the description to really tell what this plugin is capable of.
 Author: Michael Chacon
