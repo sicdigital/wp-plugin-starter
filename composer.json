@@ -1,0 +1,12 @@
+{
+    "name": "mike/sic-plugin-starter",
+    "require": {
+        "johnshopkins/acf": "~5.0"
+    },
+    "authors": [
+        {
+            "name": "Mike Chacon",
+            "email": "mike@sicdigital.com"
+        }
+    ]
+}
