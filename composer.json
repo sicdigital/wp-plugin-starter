@@ -1,8 +1,29 @@
 {
     "name": "mike/sic-plugin-starter",
-    "require": {
-        "johnshopkins/acf": "~5.0"
+
+    "config": {
+      "vendor-dir": "vendor"
     },
+
+  "require": {
+        "advanced-custom-fields/advanced-custom-fields-pro": "~5.0"
+    },
+
+    "repositories": [
+      {
+        "type": "package",
+        "package": {
+          "name": "advanced-custom-fields/advanced-custom-fields-pro",
+          "version": "5.0",
+          "type": "wordpress-plugin",
+          "dist": {
+            "type": "zip",
+            "url": "http://connect.advancedcustomfields.com/index.php?p=pro&a=download&k=b3JkZXJfaWQ9NTM2Nzd8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE1LTA0LTA4IDAzOjAwOjA1"
+          }
+        }
+      }
+    ],
+
     "authors": [
         {
             "name": "Mike Chacon",
